@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmIQ - Futuristic Agriculture Resource Management and Intelligent Quantification</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo" id="logo-link">
+                <img src="assets/image/logo.png" alt="FarmIQ Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#meaning">What is FarmIQ</a></li>
+                    <li><a href="#sdg">SDG Impact</a></li>
+                    <li><a href="#timeline">Development</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                     <li><a href="#team">Our Team</a></li> 
+                    <li><a href="#contact">Updates</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="status-tag">Project in Development</div>
+            <h2>AI-Powered Rice Crop Management for Philippine Farmers</h2>
+            <p class="allow-select">We're building FarmIQ - a specialized AI system designed exclusively for rice cultivation to help Filipino farmers increase yields, reduce costs, and optimize resources.</p>
+            <a href="#timeline" class="btn">View Development Progress</a>
+            <a href="#contact" class="btn btn-outline">Get Project Updates</a>
+        </div>
+    </section>
+
+    <!-- FarmIQ Meaning Section -->
+    <section class="farmiq-meaning" id="meaning">
+        <div class="container">
+            <div class="section-title">
+                <h2>What is FarmIQ?</h2>
+                <p>Futuristic Agriculture Resource Management and Intelligent Quantification</p>
+            </div>
+            <div class="meaning-grid">
+                <div class="meaning-card">
+                    <div class="meaning-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Futuristic Agriculture</h3>
+                    <p class="allow-select">Modern and forward-looking farming practices using emerging technologies to increase productivity, reduce waste, and make farming more sustainable and resilient.</p>
+                    <ul class="meaning-list">
+                        <li>Artificial Intelligence (AI)</li>
+                        <li>Internet of Things (IoT) sensors</li>
+                        <li>Drones and smart machinery</li>
+                        <li>Data analytics and automation</li>
+                        <li>Sustainable and climate-smart methods</li>
+                    </ul>
+                </div>
+                <div class="meaning-card">
+                    <div class="meaning-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Resource Management</h3>
+                    <p class="allow-select">Optimizing the use of agricultural inputs and assets to maximize output while minimizing waste and cost.</p>
+                    <ul class="meaning-list">
+                        <li>Water (smart irrigation systems)</li>
+                        <li>Soil nutrients and fertilizers (precision application)</li>
+                        <li>Energy (solar-powered machinery)</li>
+                        <li>Labor and time (automated monitoring)</li>
+                        <li>Financial resources (data-driven budgeting)</li>
+                    </ul>
+                </div>
+                <div class="meaning-card">
+                    <div class="meaning-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Intelligent Quantification</h3>
+                    <p class="allow-select">Using AI, sensors, and data analysis to measure farm conditions, analyze patterns, and predict outcomes for evidence-based farming decisions.</p>
+                    <ul class="meaning-list">
+                        <li>Measure and monitor farm conditions</li>
+                        <li>Analyze patterns for better decisions</li>
+                        <li>Predict yield, pest risks, and harvest times</li>
+                        <li>Turn raw data into intelligent insights</li>
+                        <li>Guide farmers in smart, evidence-based actions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Section -->
+    <section class="sdg-section" id="sdg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Supporting Sustainable Development Goals</h2>
+                <p>FarmIQ contributes to key United Nations Sustainable Development Goals</p>
+            </div>
+            
+            <!-- First Row -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+                    <div class="sdg-card">
+                        <div class="sdg-card-inner">
+                            <div class="sdg-card-front">
+                                <div class="sdg-icon"><i class="fas fa-bread-slice"></i></div>
+                                <h3>SDG 2: Zero Hunger</h3>
+                                <p class="sdg-number">Goal 2</p>
+                            </div>
+                            <div class="sdg-card-back">
+                                <h3>Zero Hunger</h3>
+                                <p class="allow-select">Increasing rice productivity and food security through AI-optimized farming practices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+                    <div class="sdg-card">
+                        <div class="sdg-card-inner">
+                            <div class="sdg-card-front">
+                                <div class="sdg-icon"><i class="fas fa-heartbeat"></i></div>
+                                <h3>SDG 3: Good Health</h3>
+                                <p class="sdg-number">Goal 3</p>
+                            </div>
+                            <div class="sdg-card-back">
+                                <h3>Good Health</h3>
+                                <p class="allow-select">Reducing chemical pesticide use and promoting sustainable farming for healthier food and environment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+                    <div class="sdg-card">
+                        <div class="sdg-card-inner">
+                            <div class="sdg-card-front">
+                                <div class="sdg-icon"><i class="fas fa-industry"></i></div>
+                                <h3>SDG 9: Innovation</h3>
+                                <p class="sdg-number">Goal 9</p>
+                            </div>
+                            <div class="sdg-card-back">
+                                <h3>Innovation</h3>
+                                <p class="allow-select">Building resilient infrastructure and promoting inclusive, sustainable industrialization through agricultural technology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second Row -->
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                    <div class="sdg-card">
+                        <div class="sdg-card-inner">
+                            <div class="sdg-card-front">
+                                <div class="sdg-icon"><i class="fas fa-recycle"></i></div>
+                                <h3>SDG 12: Responsible Consumption</h3>
+                                <p class="sdg-number">Goal 12</p>
+                            </div>
+                            <div class="sdg-card-back">
+                                <h3>Responsible Consumption</h3>
+                                <p class="allow-select">Promoting sustainable management and efficient use of natural resources in rice production</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                    <div class="sdg-card">
+                        <div class="sdg-card-inner">
+                            <div class="sdg-card-front">
+                                <div class="sdg-icon"><i class="fas fa-tree"></i></div>
+                                <h3>SDG 15: Life on Land</h3>
+                                <p class="sdg-number">Goal 15</p>
+                            </div>
+                            <div class="sdg-card-back">
+                                <h3>Life on Land</h3>
+                                <p class="allow-select">Protecting and restoring terrestrial ecosystems through sustainable rice farming practices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Timeline -->
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <div class="section-title">
+                <h2>Development Timeline</h2>
+                <p>Our roadmap for building the perfect rice farming AI solution</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Current Phase</div>
+                        <div class="current-phase">Active Development</div>
+                        <h3>Rice Crop Research & Data Collection</h3>
+                        <p class="allow-select">Gathering comprehensive data on Philippine rice cultivation practices, climate patterns, soil types, and common challenges.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Next 3 Months</div>
+                        <h3>Rice-Specific AI Model Development</h3>
+                        <p class="allow-select">Building specialized AI models for rice disease detection, irrigation optimization, yield prediction, and pest management tailored to Philippine conditions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Months 3-5</div>
+                        <h3>IoT Development & Drone Integration</h3>
+                        <p class="allow-select">Developing IoT sensors for field monitoring and integrating drone technology for aerial crop assessment and data collection.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Months 6-8</div>
+                        <h3>Platform Development & Initial Testing</h3>
+                        <p class="allow-select">Creating the Philippine-specific farmer dashboard and conducting initial field tests with rice farmers.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Months 9-11</div>
+                        <h3>Pilot Program Launch</h3>
+                        <p class="allow-select">Deploying FarmIQ to selected rice farms across major rice-producing regions for real-world testing and feedback collection.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Months 12-14</div>
+                        <h3>Refinement & Scale Preparation</h3>
+                        <p class="allow-select">Incorporating farmer feedback, optimizing performance, and preparing for wider deployment across the Philippine rice farming community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Specific Features</h2>
+                <p>Designed exclusively for Philippine rice farming challenges</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="coming-soon">In Development</div>
+                    <div class="feature-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>Rice Disease Detection</h3>
+                    <p class="allow-select">AI-powered identification of common Philippine rice diseases like blast, sheath blight, and bacterial leaf blight with treatment recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="coming-soon">Planned</div>
+                    <div class="feature-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Smart Irrigation for Rice</h3>
+                    <p class="allow-select">Optimized water management for both irrigated and rainfed rice systems, considering Philippine weather patterns and water availability.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="coming-soon">Planned</div>
+                    <div class="feature-icon"><i class="fas fa-satellite-dish"></i></div>
+                    <h3>IoT Monitoring</h3>
+                    <p class="allow-select">Real-time field monitoring using IoT sensors for soil moisture, temperature, humidity, and crop health indicators.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="coming-soon">Planned</div>
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Yield Prediction</h3>
+                    <p class="allow-select">Accurate yield forecasting based on variety, weather conditions, soil health, and farming practices specific to Philippine rice.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="coming-soon">Planned</div>
+                    <div class="feature-icon"><i class="fas fa-cloud-sun"></i></div>
+                    <h3>Weather Monitoring</h3>
+                    <p class="allow-select">Integration with weather APIs to provide real-time forecasts and alerts for optimal farming decisions based on local conditions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="coming-soon">Planned</div>
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Filipino Farmer Dashboard</h3>
+                    <p class="allow-select">User-friendly interface in Filipino and English language, designed for Philippine farming contexts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Approach Section -->
+    <section class="farmiq-meaning" id="technology">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Technology Approach</h2>
+                <p>How FarmIQ applies advanced technology to rice farming</p>
+            </div>
+            <div class="meaning-grid">
+                <div class="meaning-card">
+                    <div class="meaning-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI-Powered Insights</h3>
+                    <p class="allow-select">Machine learning algorithms trained specifically on Philippine rice data to provide accurate predictions and recommendations for local farming conditions.</p>
+                </div>
+                <div class="meaning-card">
+                    <div class="meaning-icon"><i class="fas fa-satellite"></i></div>
+                    <h3>Smart Monitoring</h3>
+                    <p class="allow-select">IoT sensors and satellite imagery to monitor crop health, soil conditions, and environmental factors in real-time across rice fields.</p>
+                </div>
+                <div class="meaning-card">
+                    <div class="meaning-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Data-Driven Decisions</h3>
+                    <p class="allow-select">Transforming traditional rice farming with evidence-based recommendations for planting, fertilizing, irrigating, and harvesting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!-- Team & Organization Section -->
+<section class="team-section" id="team">
+    <div class="container">
+        <div class="section-title">
+            <h2>FarmIQ Team & Organization</h2>
+            <p>Meet the dedicated team behind the FarmIQ project</p>
+        </div>
+        
+        <!-- Organizational Chart -->
+        <div class="org-chart-container">
+            <h3 class="org-title">Organizational Structure</h3>
+            
+            <div class="org-image-container">
+                <img src="assets/image/org_chart.png" alt="FarmIQ Organizational Chart" class="org-image">
+            </div>
+        </div>
+        
+        <!-- Team Composition with Infinite Swiper Animation -->
+        <div class="team-composition">
+            <h3 class="team-title">Team Composition</h3>
+            
+            <div class="team-swiper-container">
+                <div class="team-swiper-track" id="swiper-track">
+                   
+                    <!-- Project Leadership -->
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                                <img src="" alt="Engr. Randy A. Joco">
+                            </div>
+                            <div class="member-info">
+                                <h4>Engr. Randy A. Joco, MSc.</h4>
+                                <p>Project Leader</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Leading the FarmIQ project development and implementation.</p>
+                            <span class="member-role">Project Leadership</span>
+                            
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                               <img src="" alt="Engr. Jerrel S. Reyes">
+                            </div>
+                            <div class="member-info">
+                                <h4>Engr. Jerrel S. Reyes, Ph.D.</h4>
+                                <p>Study Leader</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Overseeing research and development activities</p>
+                            <span class="member-role">Project Leadership</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                               <img src="" alt="Roxanne M. Fabriquel">
+                            </div>
+                            <div class="member-info">
+                                <h4>Roxanne M. Fabriquel, MSc.</h4>
+                                <p>Study Leader</p>
+                            </div>
+                            
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Leading specialized study components of the project</p>
+                            <span class="member-role">Project Leadership</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Assistants -->
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                                 <img src="assets/image/me.png" alt="John James S. Ferrera">
+                            </div>
+                            <div class="member-info">
+                                <h4>John James S. Ferrera</h4>
+                                <p>Project Assistant III</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                          <p class="allow-select">Assisting in project coordination and IT system development.</p>
+                          <span class="member-role">Project Assistant | IT Expert</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=johnjamesferrera@gmail.com&su=FarmIQ%20Inquiry" 
+                            target="_blank"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                                <img src="assets/image/mamrina.png" alt="Rina May A. Joco">
+                            </div>
+                            <div class="member-info">
+                                <h4>Rina May A. Joco</h4>
+                                <p>Project Assistant II</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Assisting with project documentation and logistics</p>
+                            <span class="member-role">Project Assistant</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Duplicate cards -->
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                                <img src="" alt="Engr. Randy A. Joco">
+                            </div>
+                            <div class="member-info">
+                                <h4>Engr. Randy A. Joco, MSc.</h4>
+                                <p>Project Leader</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Leading the FarmIQ project development and implementation.</p>
+                            <span class="member-role">Project Leadership</span>
+                            
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                               <img src="" alt="Engr. Jerrel S. Reyes">
+                            </div>
+                            <div class="member-info">
+                                <h4>Engr. Jerrel S. Reyes, Ph.D.</h4>
+                                <p>Study Leader</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Overseeing research and development activities</p>
+                            <span class="member-role">Project Leadership</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                               <img src="" alt="Roxanne M. Fabriquel">
+                            </div>
+                            <div class="member-info">
+                                <h4>Roxanne M. Fabriquel, MSc.</h4>
+                                <p>Study Leader</p>
+                            </div>
+                            
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Leading specialized study components of the project</p>
+                            <span class="member-role">Project Leadership</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                                 <img src="me.png" alt="John James S. Ferrera"> 
+                            </div>
+                            <div class="member-info">
+                                <h4>John James S. Ferrera</h4>
+                                <p>Project Assistant III</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                          <p class="allow-select">Assisting in project coordination and IT system development.</p>
+                          <span class="member-role">Project Assistant | IT Expert</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-avatar">
+                                <img src="mamrina.png" alt="Rina May A. Joco">
+                            </div>
+                            <div class="member-info">
+                                <h4>Rina May A. Joco</h4>
+                                <p>Project Assistant II</p>
+                            </div>
+                        </div>
+                        <div class="member-details">
+                            <p class="allow-select">Assisting with project documentation and logistics</p>
+                            <span class="member-role">Project Assistant</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <h2>Interested in Philippine Rice Innovation?</h2>
+            <p class="allow-select">FarmIQ is currently in development and not yet available for public use. Follow us on our 
+    <a href="https://www.facebook.com/MinSUFARMIQ" target="_blank" rel="noopener noreferrer">
+        Facebook page
+    </a> 
+    to receive updates on our progress and be notified when we launch our pilot program with select rice farmers.</p>
+            <a href="https://www.facebook.com/MinSUFARMIQ" class="btn btn-light">Get FARMIQ Project Updates</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>FarmIQ</h3>
+                    <p class="allow-select">AI-powered rice crop management system specifically designed for Philippine agriculture. Currently in development phase.</p>
+                </div>
+                <div class="footer-column">
+                </div>
+                <div class="footer-column">
+                    <h3>Contact FarmIQ Team</h3>
+                    <ul>
+                        <li>Email: minsufarmiq@gmail.com</li>
+                        <li>Facebook: MinSU FarmIQ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 FarmIQ Development Team. Project in development - focusing exclusively on rice cultivation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
