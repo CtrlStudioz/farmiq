@@ -772,6 +772,228 @@ nav a:hover {
     color: var(--primary);
 }
 
+
+/* CTA Section Improvements */
+/* .cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+} */
+
+/* CTA Section Improvements */
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Make both buttons have the same hover animation */
+.btn-light, .btn-outline-light {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+.btn-light:hover, .btn-outline-light:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn-light {
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid white;
+}
+
+.btn-light:hover {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+    color: var(--primary);
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Footer Button Improvements */
+.btn-small {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    background-color: var(--primary-light);
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: translateY(0);
+}
+
+.btn-small:hover {
+    background-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(47, 76, 116, 0.3);
+    color: white; /* Ensure text stays white on hover */
+}
+
+/* Make sure the icon is visible and white */
+.btn-small i,
+.btn-small:hover i{
+    color: white !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer-contact-btn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .cta-buttons .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-small {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Footer Improvements */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-column a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-column a:hover {
+    color: var(--primary-light);
+}
+
+.footer-column i {
+    width: 16px;
+    color: var(--primary-light);
+}
+
+.footer-contact-btn {
+    margin-top: 20px;
+}
+
+.btn-small {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    background-color: var(--primary-light);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background-color: var(--primary);
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer-contact-btn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .cta-buttons .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-small {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+
 /* Footer */
 footer {
     background-color: var(--dark);
